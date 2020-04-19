@@ -1,0 +1,3 @@
+# Project exclude paths
+/blog-core/target/
+/blog-web/target/

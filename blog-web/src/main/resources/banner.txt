@@ -1,0 +1,5 @@
+------------------------------------------------------------
+Spring Boot   :     ${spring-boot.version}
+mblog         :     ${site.version}
+mblog storage :     ${site.location}
+------------------------------------------------------------
