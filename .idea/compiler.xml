@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="blog-web" />
+        <module name="blog-weixin" />
         <module name="blog-core" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="blog" target="1.8" />
       <module name="blog-core" target="1.8" />
       <module name="blog-web" target="1.8" />
+      <module name="blog-weixin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +24,7 @@
       <module name="blog" options="" />
       <module name="blog-core" options="-parameters -parameters" />
       <module name="blog-web" options="-parameters -parameters" />
+      <module name="blog-weixin" options="-parameters -parameters" />
     </option>
   </component>
 </project>

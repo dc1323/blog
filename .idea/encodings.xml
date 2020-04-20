@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-weixin" charset="UTF-8" />
   </component>
 </project>

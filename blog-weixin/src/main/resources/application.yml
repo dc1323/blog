@@ -1,0 +1,28 @@
+# Server settings
+server:
+    port: 8888
+    max-http-header-size: 8192
+    use-forward-headers: true
+    compression:
+        enabled: true
+        min-response-size: 1024
+        mime-types: text/plain,text/css,text/xml,text/javascript,application/json,application/javascript,application/xml,application/xml+rss,application/x-javascript,application/x-httpd-php,image/jpeg,image/gif,image/png
+    tomcat:
+        remote-ip-header: X-Forwarded-for
+        protocol-header: X-Forwarded-Proto
+        port-header: X-Forwarded-Port
+        uri-encoding: UTF-8
+
+logging:
+  level:
+    org.springframework.web: INFO
+    com.github.binarywang.demo.wx.mp: DEBUG
+    me.chanjar.weixin: DEBUG
+
+wx:
+  mp:
+    configs:
+      - appId: wx22964f0e2359b015
+        secret: wx22964f0e2359b015
+        token: lyl365
+        aesKey: e8iBeLchTw4bHITCH9pUpkwW6zecydCnsWtYVwb84sp

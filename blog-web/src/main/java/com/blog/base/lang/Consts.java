@@ -1,6 +1,7 @@
 package com.blog.base.lang;
 
 public interface Consts {
+
 	/**
 	 * 文件存储-缩略图目录
 	 */

@@ -39,6 +39,7 @@
         <qiniu.sdk.version>7.2.18</qiniu.sdk.version>
         <flyway.version>5.2.4</flyway.version>
         <commonmark.version>0.12.1</commonmark.version>
+        <weixin-java-mp.version>3.7.0</weixin-java-mp.version>
     </properties>
 
     <dependencyManagement>

@@ -36,7 +36,6 @@ public class ContextStartup implements ApplicationRunner, ServletContextAware {
     private MailService mailService;
     @Autowired
     private SiteOptions siteOptions;
-
     private ServletContext servletContext;
 
     @Override
